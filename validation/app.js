@@ -1,6 +1,6 @@
-document.querySelector('#password').addEventListener('blur',validation)
-document.querySelector('#firstname').addEventListener('blur',validation)
-document.querySelector('#lastname').addEventListener('blur',validation)
+document.querySelector('#subject').addEventListener('blur',validation)
+document.querySelector('#message').addEventListener('blur',validation)
+document.querySelector('#email').addEventListener('blur',validation)
 function validation(e){
     if (e.target.value == '')
     {
