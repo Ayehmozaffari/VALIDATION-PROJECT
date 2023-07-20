@@ -116,6 +116,15 @@ body{
 .form a:hover{
     text-decoration: underline;
 }
+.form .button{
+   margin-top: 35px;
+}
  
 
-
+.form .button input{
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #517cf2;
+    border-radius: 3px;
+}
