@@ -25,11 +25,26 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
-
-.container .form{
-    padding: 30px;
+.container .forms{
+    display: flex;
+    align-items: center;
+height: 440px;
+    width:200%;
+    background-color: brown;
+  transition: height 0.8s ease;
+ 
 }
-
+.container.active .login{
+  margin-left: -50%;  
+}
+.container .form{
+    width: 50%;
+    padding: 30px;
+    background: #fff;
+}
+.container.active .form{
+    height: 600px;
+}
 .container .form .title{
     position: relative;
     font-size: 27px;
