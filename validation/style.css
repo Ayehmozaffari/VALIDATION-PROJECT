@@ -126,5 +126,17 @@ body{
     color: #fff;
     letter-spacing: 1px;
     background-color: #517cf2;
-    border-radius: 3px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.form .button input:hover{
+    background-color: #265df2;
+    box-shadow:2px 2px 2px rgba(51, 51, 51, 0.402);
+    transition: 0.3s;
+}
+.form .login-signup{
+    margin-top:30px;
+    text-align: center;
 }
